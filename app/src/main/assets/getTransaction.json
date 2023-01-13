@@ -1,0 +1,46 @@
+{
+    "id": "FooBarBaz123",
+    "accountId": "W2a8FeqGg8MEVPFND3vqWJ",
+    "customerId": "WGtfoppbN9U5jgVCMSgneW",
+    "financialAccountId": "WGtf5Q6WcNTSKA6yuQLc2H",
+    "amount": 678.58,
+    "currency": "USD",
+    "payee": "",
+    "status": "POSTED",
+    "transactionDate": "2022-10-29T00:00:00Z",
+    "postedDate": "2022-10-29T00:00:00Z",
+    "serviceProviderDetails": [
+        {
+            "date": "2022-10-29",
+            "amount": {
+                "amount": 678.58,
+                "currency": "USD"
+            },
+            "checkNumber": "998",
+            "isManual": false,
+            "highLevelCategoryId": 10000017,
+            "description": {
+                "original": "ATT*BILL PAYMENT XXX-XXX-0500 TX"
+            },
+            "transactionDate": "2022-10-29",
+            "categoryType": "UNCATEGORIZE",
+            "categorySource": "SYSTEM",
+            "accountId": 10319427,
+            "lastUpdated": "2022-10-31T04:05:10Z",
+            "createdDate": "2022-10-31T04:05:10Z",
+            "sourceType": "AGGREGATED",
+            "CONTAINER": "bank",
+            "serviceProvider": "YODLEE",
+            "postDate": "2022-10-29",
+            "id": 23294862,
+            "category": "Uncategorized",
+            "runningBalance": {
+                "amount": 1159.24,
+                "currency": "USD"
+            },
+            "categoryId": 1,
+            "status": "POSTED",
+            "updatedAt": "2022-10-31T04:19:17.338476+00:00"
+        }
+    ]
+}

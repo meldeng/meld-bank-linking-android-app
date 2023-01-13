@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Connect Widget</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="btn_label_connect">Launch Institution Connect</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connection_demo">Connection</string>
+    <string name="institutions_demo">Institutions</string>
+    <string name="accounts_demo">Accounts &amp; Transactions</string>
+    <string name="transactions_demo">Transactions</string>
+    <string name="connection_error_message">No Internet Connection</string>
+    <string name="text_ok">OK</string>
+    <string name="token_error_message">Error Getting Connect Token</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="hint_external_customer_id">External Customer Id</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_meld_configuration">Update Meld Configuration</string>
+</resources>

@@ -1,10 +1,6 @@
 
 # Connect Widget
 
-
-
-
-
 This project shows how to integrate the Meld API to connect to link accounts.  
 https://docs.meld.io/reference/request-connect-token
 

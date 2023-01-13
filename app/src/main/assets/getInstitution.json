@@ -1,0 +1,73 @@
+{
+  "domain" : "valleyfcu.com",
+  "images" : {
+    "word" : "https://images-bankpicker.meld.io/default/icon.png",
+    "icon" : "https://images-bankpicker.meld.io/5bpfQpqDYbtn8CX9QX82zn/icon.png",
+    "wide" : "https://images-bankpicker.meld.io/5bpfQpqDYbtn8CX9QX82zn/icon.png"
+  },
+  "aliases" : [
+    "MT"
+  ],
+  "id" : "12s11Lqt1KKs3CBhNge67o",
+  "isTest" : false,
+  "providers" : {
+    "finicity" : {
+      "id" : "10917",
+      "regions" : [
+        "US"
+      ],
+      "oauth" : false,
+      "products" : [
+        "ACCOUNT_DETAILS",
+        "BALANCES",
+        "HOLDINGS",
+        "IDENTITIES",
+        "STATEMENTS",
+        "TRANSACTIONS"
+      ]
+    },
+    "yodlee" : {
+      "id" : "24359",
+      "regions" : [
+        "US"
+      ],
+      "oauth" : false,
+      "products" : [
+        "ACCOUNT_DETAILS",
+        "BALANCES",
+        "IDENTITIES",
+        "TRANSACTIONS"
+      ]
+    },
+    "mx" : {
+      "id" : "45420d0f-0188-5178-234c-bdfeea0c2f9b",
+      "regions" : [
+        "US"
+      ],
+      "oauth" : false,
+      "products" : [
+        "BALANCES",
+        "TRANSACTIONS"
+      ]
+    },
+    "plaid" : {
+      "id" : "ins_109772",
+      "regions" : [
+        "US"
+      ],
+      "oauth" : false,
+      "products" : [
+        "ACCOUNT_DETAILS",
+        "BALANCES",
+        "HOLDINGS",
+        "IDENTITIES",
+        "TRANSACTIONS"
+      ]
+    }
+  },
+  "key" : "12s11Lqt1KKs3CBhNge67o",
+  "rank" : 1119,
+  "subName" : "Montana Federal Credit Union",
+  "name" : "Valley Federal Credit Union",
+  "type" : "BANK"
+}

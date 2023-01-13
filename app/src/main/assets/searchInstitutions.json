@@ -1,0 +1,594 @@
+{
+  "count" : 10,
+  "institutions" : [
+    {
+      "domain" : "myfirstfarmers.com",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/ThqLmg8EVufPXBRkWf42jv\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/ThqLmg8EVufPXBRkWf42jv\/icon.png"
+      },
+      "aliases" : [
+
+      ],
+      "id" : "12nvJyJzwMz4aHDnZcpUr1",
+      "isTest" : false,
+      "providers" : {
+        "mx" : {
+          "id" : "80511",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "TRANSACTIONS"
+          ]
+        },
+        "finicity" : {
+          "id" : "4976",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12nvJyJzwMz4aHDnZcpUr1",
+      "rank" : 2353,
+      "subName" : "Tennessee",
+      "name" : "First Farmers & Merchants Bank",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "valleyfcu.com",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/5bpfQpqDYbtn8CX9QX82zn\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/5bpfQpqDYbtn8CX9QX82zn\/icon.png"
+      },
+      "aliases" : [
+        "MT"
+      ],
+      "id" : "12s11Lqt1KKs3CBhNge67o",
+      "isTest" : false,
+      "providers" : {
+        "finicity" : {
+          "id" : "10917",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "yodlee" : {
+          "id" : "24359",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        },
+        "mx" : {
+          "id" : "45420d0f-0188-5178-234c-bdfeea0c2f9b",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "TRANSACTIONS"
+          ]
+        },
+        "plaid" : {
+          "id" : "ins_109772",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12s11Lqt1KKs3CBhNge67o",
+      "rank" : 1119,
+      "subName" : "Montana Federal Credit Union",
+      "name" : "Valley Federal Credit Union",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "innovationcu.ca",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/XAd7aA3ibmqxSi65GcDyXY\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/XAd7aA3ibmqxSi65GcDyXY\/icon.png"
+      },
+      "aliases" : [
+
+      ],
+      "id" : "12tXXbLPzBRAZwmG237rAj",
+      "isTest" : false,
+      "providers" : {
+        "yodlee" : {
+          "id" : "25452",
+          "regions" : [
+            "CA"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "mx" : {
+          "id" : "90c89915-009d-e099-0a23-ddd7719eaddd",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12tXXbLPzBRAZwmG237rAj",
+      "rank" : 2171,
+      "subName" : "innovationcu.ca",
+      "name" : "Innovation Credit Union",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "argentcu.org",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/XXrKUVwUGtpYgCQsrGCQEq\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/XXrKUVwUGtpYgCQsrGCQEq\/icon.png"
+      },
+      "aliases" : [
+
+      ],
+      "id" : "12txjDcbvcmvDZNPWe15td",
+      "isTest" : false,
+      "providers" : {
+        "mx" : {
+          "id" : "40ac7050-a3ce-3dda-b951-ea7f76a0e62b",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "TRANSACTIONS"
+          ]
+        },
+        "plaid" : {
+          "id" : "ins_113791",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        },
+        "finicity" : {
+          "id" : "14560",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12txjDcbvcmvDZNPWe15td",
+      "rank" : 2579,
+      "subName" : "argentcu.org",
+      "name" : "Argent Credit Union",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "ms-cu.com",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png"
+      },
+      "aliases" : [
+        "IN"
+      ],
+      "id" : "12vUdAQ2fJcyb3JkUXYHjA",
+      "isTest" : false,
+      "providers" : {
+        "mx" : {
+          "id" : "a2bd573f-4f34-0caa-e5e3-bf60551f33c1",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "finicity" : {
+          "id" : "100802",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12vUdAQ2fJcyb3JkUXYHjA",
+      "rank" : 4847,
+      "subName" : "Indiana • ms-cu.com",
+      "name" : "Members Source Credit Union",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "CHEMUNGCANAL.COM",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png"
+      },
+      "aliases" : [
+
+      ],
+      "id" : "12vdKJNkFX3SdJwpAAnM9G",
+      "isTest" : false,
+      "providers" : {
+        "mx" : {
+          "id" : "77089",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "yodlee" : {
+          "id" : "8034",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        },
+        "finicity" : {
+          "id" : "8104",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12vdKJNkFX3SdJwpAAnM9G",
+      "rank" : 1143,
+      "subName" : "CHEMUNGCANAL.COM",
+      "name" : "Chemung Canal Trust Company",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "preferredbank.com",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png"
+      },
+      "aliases" : [
+        "CA"
+      ],
+      "id" : "12wEies5JqzxHimgwFJ5Dr",
+      "isTest" : false,
+      "providers" : {
+        "plaid" : {
+          "id" : "ins_114405",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        },
+        "yodlee" : {
+          "id" : "19955",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "finicity" : {
+          "id" : "170720",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12wEies5JqzxHimgwFJ5Dr",
+      "rank" : 7447,
+      "subName" : "California • preferredbank.com",
+      "name" : "Preferred Bank",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "american1cu.org",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/8SeuSZfJqyh5qygTdTsVCf\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/wide\/TLjsYJzXbH587MRfwb1uXt.png"
+      },
+      "aliases" : [
+        "MI"
+      ],
+      "id" : "12yVz1QDgH2jwSRGQpxkHp",
+      "isTest" : false,
+      "providers" : {
+        "mx" : {
+          "id" : "73440",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "finicity" : {
+          "id" : "8149",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "12yVz1QDgH2jwSRGQpxkHp",
+      "rank" : 1275,
+      "subName" : "Michigan • american1cu.org",
+      "name" : "American 1 Credit Union",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "firstcomcu.org",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/QsH7nFUvocBfzGrniTvH64\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/QsH7nFUvocBfzGrniTvH64\/icon.png"
+      },
+      "aliases" : [
+        ""
+      ],
+      "id" : "131LgN5Xze5V8i3Za7q8gz",
+      "isTest" : false,
+      "providers" : {
+        "finicity" : {
+          "id" : "12988",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "yodlee" : {
+          "id" : "10171",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "mx" : {
+          "id" : "74943",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "plaid" : {
+          "id" : "ins_111051",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "131LgN5Xze5V8i3Za7q8gz",
+      "rank" : 931,
+      "subName" : "firstcomcu.org",
+      "name" : "First Commonwealth Federal Credit Union",
+      "type" : "BANK"
+    },
+    {
+      "domain" : "bdfcu.com",
+      "images" : {
+        "word" : "https:\/\/images-bankpicker.meld.io\/default\/icon.png",
+        "icon" : "https:\/\/images-bankpicker.meld.io\/66qnr35dggbt3pZ2mc8xWj\/icon.png",
+        "wide" : "https:\/\/images-bankpicker.meld.io\/66qnr35dggbt3pZ2mc8xWj\/icon.png"
+      },
+      "aliases" : [
+
+      ],
+      "id" : "131VcZYjRoDAFDkfkBhQMD",
+      "isTest" : false,
+      "providers" : {
+        "finicity" : {
+          "id" : "3931",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "yodlee" : {
+          "id" : "6491",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "ACCOUNT_DETAILS",
+            "BALANCES",
+            "IDENTITIES",
+            "STATEMENTS",
+            "TRANSACTIONS"
+          ]
+        },
+        "mx" : {
+          "id" : "79951",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "TRANSACTIONS"
+          ]
+        },
+        "plaid" : {
+          "id" : "ins_109598",
+          "regions" : [
+            "US"
+          ],
+          "oauth" : false,
+          "products" : [
+            "BALANCES",
+            "HOLDINGS",
+            "IDENTITIES",
+            "TRANSACTIONS"
+          ]
+        }
+      },
+      "key" : "131VcZYjRoDAFDkfkBhQMD",
+      "rank" : 2513,
+      "subName" : "bdfcu.com",
+      "name" : "Bulldog Federal Credit Union",
+      "type" : "BANK"
+    }
+  ],
+  "remaining" : 13718
+}

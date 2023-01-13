@@ -1,0 +1,20 @@
+{
+  "status" : "EXPIRED",
+  "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+  "products" : [
+    "IDENTIFIERS"
+  ],
+  "id" : "WGuP4X24gyBDB2MfokLFoRq",
+  "institutionName" : "Chase",
+  "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+  "serviceProviderDetails" : {
+    "institutionId" : 102224,
+    "serviceProvider" : "FINICITY",
+    "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=fee42e0939607c5022275026064398e65cd1c874ff16c52d99fdd51c6e5336f5&timestamp=1666053987563&ttl=1666061187563&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+  },
+  "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+  "createdAt" : null,
+  "regions" : [
+    "US"
+  ]
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment"
+    >
+    <fragment
+        android:id="@+id/financialAccountFragment"
+        android:name="io.meld.example.ui.account.detail.FinancialAccountFragment"
+        android:label="FinancialAccountFragment">
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_financialAccountFragment_to_searchFinancialTransactionsFragment"
+            app:destination="@id/searchFinancialTransactionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/financialTransactionFragment"
+        android:name="io.meld.example.ui.transactions.detail.FinancialTransactionFragment"
+        android:label="FinancialTransactionFragment">
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/institutionConnectionFragment"
+        android:name="io.meld.example.ui.connections.detail.InstitutionConnectionFragment"
+        android:label="InstitutionConnectionFragment">
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/institutionFragment"
+        android:name="io.meld.example.ui.institution.details.InstitutionFragment"
+        android:label="InstitutionFragment">
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchInstitutionFragment"
+        android:name="io.meld.example.ui.institution.SearchInstitutionFragment"
+        android:label="fragment_search_institution"
+        tools:layout="@layout/fragment_search_institution">
+        <action
+            android:id="@+id/action_searchInstitutionFragment_to_institutionFragment"
+            app:destination="@id/institutionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchInstitutionConnectionsFragment"
+        android:name="io.meld.example.ui.connections.SearchConnectionsFragment"
+        android:label="fragment_search_institutions"
+        tools:layout="@layout/fragment_search_connections">
+        <action
+            android:id="@+id/action_SearchConnectionsFragment_to_institutionConnectionFragment"
+            app:destination="@id/institutionConnectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFinancialAccountFragment"
+        android:name="io.meld.example.ui.account.SearchFinancialAccountFragment"
+        android:label="fragment_search_financial_account"
+        tools:layout="@layout/fragment_search_financial_account">
+        <action
+            android:id="@+id/action_searchFinancialAccountFragment_to_financialAccountFragment"
+            app:destination="@id/financialAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFinancialTransactionsFragment"
+        android:name="io.meld.example.ui.transactions.SearchFinancialTransactionsFragment"
+        android:label="fragment_search_financial_transactions"
+        tools:layout="@layout/fragment_search_financial_transactions">
+        <action
+            android:id="@+id/action_searchFinancialTransactionsFragment_to_financialTransactionFragment"
+            app:destination="@id/financialTransactionFragment" />
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="io.meld.example.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchInstitutionConnectionsFragment"
+            app:destination="@id/searchInstitutionConnectionsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchInstitutionFragment"
+            app:destination="@id/searchInstitutionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFinancialAccountFragment"
+            app:destination="@id/searchFinancialAccountFragment" />
+    </fragment>
+</navigation>

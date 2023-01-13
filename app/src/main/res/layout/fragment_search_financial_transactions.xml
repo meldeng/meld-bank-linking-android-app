@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.meld.example.ui.transactions.SearchFinancialTransactionsFragment">
+
+    <FrameLayout
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:progressTint="@android:color/holo_blue_light" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:padding="8dp"
+            android:text="Financial Transactions"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/teal_700" />
+
+        <LinearLayout
+            android:id="@+id/viewSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="vertical">
+
+            <!--<EditText
+                android:id="@+id/editTextCustomerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Customer Id"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_hint" />
+
+
+            <EditText
+                android:id="@+id/editTextFinancialAccountId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Financial account id"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/text_hint" />-->
+
+            <LinearLayout
+                android:id="@+id/viewStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/editTextsStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Start date (yyyy-MM-dd) : "
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/textStartDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="yyyy-MM-dd"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_hint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/viewEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/editTextsEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="End date (yyyy-MM-dd) : "
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_hint" />
+
+                <EditText
+                    android:id="@+id/textEndDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="yyyy-MM-dd"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_hint" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/buttonSearch"
+                style="?buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/white"
+                android:text="Search"
+                android:textColor="@android:color/holo_blue_light" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvAccounts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="10"
+                tools:listitem="@layout/row_institution_connection" />
+
+            <TextView
+                android:id="@+id/text_no_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="No Data"
+                android:textAlignment="center"
+                android:textColor="@color/text_hint"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

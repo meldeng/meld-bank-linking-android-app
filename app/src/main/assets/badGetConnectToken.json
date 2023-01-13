@@ -1,0 +1,6 @@
+{
+  "code" : "BAD_REQUEST",
+  "message" : "Balances product not available by itself. Must specify at least one more product",
+  "timestamp" : "2022-10-31T14:39:38.118159Z",
+  "requestId" : "1fedd24bdbd9ca617e76840fd60e6f8f"
+}

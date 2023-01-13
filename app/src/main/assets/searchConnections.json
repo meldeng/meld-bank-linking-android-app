@@ -1,0 +1,204 @@
+{
+  "count" : 10,
+  "connections" : [
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGv9uuf6uT5vLmh63gcH9G",
+      "createdAt" : "2022-10-18T14:17:10.060223Z",
+      "institutionName" : null,
+      "key" : "LYoQdrZR5CpwExLjiSJAZpUTg28WX8vsbg73mHxEMdceBVTpNh1tE9yyzjHHosWiQs8kWgifh23kaeQPs6j1TckbUj",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : null,
+      "serviceProviderDetails" : null,
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGuP4X24gyBDB2MfokLFRq",
+      "createdAt" : "2022-10-17T23:41:47.16126Z",
+      "institutionName" : "Chase",
+      "key" : "5RsqratJEe7nNG3dwJaHuBDDgh5Unsu9kwU2xCroUHD1mPgoJ84mMbfnZJ7f8GyL1v9rtyjRYiW7KHPR4XdVF93wH",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+      "serviceProviderDetails" : {
+        "institutionId" : 102224,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=fee42e0939607c5022275026064398e65cd1c874ff16c52d99fdd51c6e5336f5&timestamp=1666053987563&ttl=1666061187563&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGu6Wx1xKfd3ZpBGv1xNZL",
+      "createdAt" : "2022-10-17T18:19:42.63262Z",
+      "institutionName" : "Chime ",
+      "key" : "5RsqratJEe7nNG3drieTUUhSk37WvtTz7zRjVyo6FGCTPs95AS5MhkF8qsNAzKNwvkJxJiLdKe9GGL7Lx4emGrPrn",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "F7eHtYWTjFUo2PDK1EbwL1",
+      "serviceProviderDetails" : {
+        "institutionId" : 102186,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102186&origin=url&partnerId=2445583515655&signature=97e2745e31b3c31254751f32def1b0d0d2e59d66fb572cfe6551fa43b42963d9&timestamp=1666030791046&ttl=1666037991046&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGthLYUaQL2zfcNu5WYZVG",
+      "createdAt" : "2022-09-30T21:48:37.664512Z",
+      "institutionName" : "Chase",
+      "key" : "LYoQdrZQKS6z4aSNHfmTuTi6pBA1KZd7CXnuXsxcmZkQVKP8TbckbVULcnRe8SMx76BSWZtG96WaJ5VowV7mL6xyVv",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+      "serviceProviderDetails" : {
+        "institutionId" : 102224,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=5a1701943588b701da66289c708fb4cdde23c0d3416a6343af9205786429f5d9&timestamp=1664576673800&ttl=1664583873800&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGthLYgUNSicdRvMuELWtq",
+      "createdAt" : "2022-09-30T21:45:37.165304Z",
+      "institutionName" : null,
+      "key" : "LYoQdrZQKS6z4aSNHfmTuTfxU74HZUQHDmnbtLB3D2wb8CnCbmeTH5R7ULdiRaN98tm9yVHdExKZfAweENrDgjQy24",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : null,
+      "serviceProviderDetails" : null,
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGthLbzbLHQBiFsgcYRWhF",
+      "createdAt" : "2022-09-30T21:44:59.996768Z",
+      "institutionName" : "Chase",
+      "key" : "LYoQdrZQKS6z4aSNHfmTuTfF25i1mt9KgD1CYjECLz4dWfEZHQsNW555UCMoCYrRAzGrb7W73dNGuABCnyiTRnMDCT",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+      "serviceProviderDetails" : {
+        "institutionId" : 102224,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=cbf22762ad483c7f421801e95f7640a070d52490709785bd1b894d0c3a3f4644&timestamp=1664574307289&ttl=1664581507289&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGtgyE6gtN4Xmp2JFuv6bY",
+      "createdAt" : "2022-09-30T21:43:56.228735Z",
+      "institutionName" : "Chase",
+      "key" : "LYoQdrZQKS6z4aSNHfmTuTeXa4LmXWthL27ccAcnsdpiW5LycnD5ndRuTm4qVVN1P8WSze94hitwhgNxHnFBoRBJRD",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+      "serviceProviderDetails" : {
+        "institutionId" : 102224,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=3d129d0e1b9d821e8bc99eccb14c22891219a159fe6cc0a329477dbb2ea37890&timestamp=1664574250475&ttl=1664581450475&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGuKj2auB6XYrKYvHXCjnF",
+      "createdAt" : "2022-09-23T18:24:16.951473Z",
+      "institutionName" : null,
+      "key" : "LYoQdrZQKS6yYLS1rGWXX2fVyHxQG89d9vj7kBJgdSYSGk1agoWJrAWxZ7byebp4JW4BUWqhKNPBsFG85vV1LkUUjU",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : null,
+      "serviceProviderDetails" : null,
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGuEwnTezJte8TmUvW1QSC",
+      "createdAt" : "2022-09-23T16:48:20.878797Z",
+      "institutionName" : "Chase",
+      "key" : "LYoQdrZQKS6yYLS1r7A5MZ83oJTL5mkXC6hxpPHjG35LNjW95g6oVCj6ebWS2Q3zqBdM5bmavmsdk5dgayQtsA7TCF",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+      "serviceProviderDetails" : {
+        "institutionId" : 102224,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=8d848678c8f1236c27e2f4eb0bc95c84a75e26515b04c679593de64f079e9d31&timestamp=1663957314828&ttl=1663964514828&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    },
+    {
+      "status" : "EXPIRED",
+      "accountId" : "W9kZTTnTAQ71RpPUDxu2tz",
+      "products" : [
+        "IDENTIFIERS"
+      ],
+      "id" : "WGuEaVJ1CQCBRJX8qcFMax",
+      "createdAt" : "2022-09-23T16:44:04.563343Z",
+      "institutionName" : "Chase",
+      "key" : "LYoQdrZQKS6yYLS1r7A5MZ5C1CyQvZ1etKtYzjtHK97Q61g7sJp4iKMBSswjTy2fFEUNBjjA9SqD2D6HvhR5XG4psR",
+      "customerId" : "WGum4FSKXe2Ajgh2tTDmSY",
+      "institutionId" : "Ntj3AwgdridJc2rtfeheku",
+      "serviceProviderDetails" : {
+        "institutionId" : 102224,
+        "serviceProvider" : "FINICITY",
+        "connectUrl" : "https://connect2.finicity.com?customerId=6009109356&experience=default&institutionId=102224&origin=url&partnerId=2445583515655&redirectUri=https%3A%2F%2Finstitution-connect-sb.meld.io&signature=6dc62c91ed8ab819fadf3c558d6558d61a05bffa48a94559584b11794ede68bc&timestamp=1663951450320&ttl=1663958650320&type=lite&webhook=https%3A%2F%2Fapi-sb.meld.io%2Fwebhooks%2Ffinicity%2FWGuNzkGCEp2drLomYzyiTo"
+      },
+      "regions" : [
+        "US"
+      ]
+    }
+  ],
+  "remaining" : 157
+}

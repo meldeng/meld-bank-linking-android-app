@@ -1,0 +1,176 @@
+{
+    "financialAccountTransactions": [
+        {
+            "key": "3zqF7t8wkPv1aqJBziPcGtpZPki7rrRs3VKYZZsnUuSD4Wp8YGXq6dk4nnk11AhB5LQN1QaHHSQ3Gbpt4btmjMVK2WFfhw4K2WjigPutEuLNiKohvZdmcwAr2YtfMZ3L3bXWeu16xR3yp2ny4gbD4TrNt6h7rppf1LjjCGTnecXGFVX3qV",
+            "id": "WGteoFkTdFnX91QZ9PCeuM",
+            "accountId": "W2a8FeqGg8MEVPFND3vqWJ",
+            "customerId": "W9jqSNY4zQ9MCHXytA731M",
+            "financialAccountId": "W9juuHZDC13Fm4XaP73V5D",
+            "amount": -500.00,
+            "currency": "USD",
+            "payee": "United Airlines",
+            "status": "POSTED",
+            "transactionDate": "2022-10-30T00:00:00Z",
+            "postedDate": "2022-10-30T00:00:00Z",
+            "serviceProviderDetails": [
+                {
+                    "date": "2022-10-30",
+                    "transaction_id": "b7ykJGN98mSobM5nXz8BSb4KkJDgm9fNA74ra",
+                    "transaction_code": null,
+                    "unofficial_currency_code": null,
+                    "amount": -500.0,
+                    "payment_meta": {
+                        "payee": null,
+                        "payer": null,
+                        "ppd_id": null,
+                        "reason": null,
+                        "by_order_of": null,
+                        "payment_method": null,
+                        "reference_number": null,
+                        "payment_processor": null
+                    },
+                    "pending": false,
+                    "merchant_name": "United Airlines",
+                    "original_description": null,
+                    "transaction_type": "special",
+                    "account_owner": null,
+                    "account_id": "3mJjprzDQ9uEjZoL79r8I3nmq4z8yBFM7dl6a",
+                    "category_id": "22001000",
+                    "payment_channel": "in store",
+                    "name": "United Airlines",
+                    "serviceProvider": "PLAID",
+                    "iso_currency_code": "USD",
+                    "location": {
+                        "lat": null,
+                        "lon": null,
+                        "city": null,
+                        "region": null,
+                        "address": null,
+                        "country": null,
+                        "postal_code": null,
+                        "store_number": null
+                    },
+                    "pending_transaction_id": null,
+                    "category": [
+                        "Travel",
+                        "Airlines and Aviation Services"
+                    ],
+                    "authorized_date": "2022-10-30",
+                    "updatedAt": "2022-10-30T03:28:36.025447+00:00"
+                }
+            ]
+        },
+        {
+            "key": "3zqF7t8wkPv1aqJBziPcGtpZPki7rrRs3VKYZZsnUuSD4Wp8YGXq6dk4nnk11AhB5LQN1QaHHSQ3Gbpt4btmjMVK2WFfhw4K2WjigPutEuLNiKohvZdmcwAr2R7z4a9vtZHiLeXPbAaqP5AE7joki69naxycMn7tAcDdSz2o4o3NaHxhmh",
+            "id": "WGtx5JJvWNC2L6iRmaTQFH",
+            "accountId": "W2a8FeqGg8MEVPFND3vqWJ",
+            "customerId": "W9jqSNY4zQ9MCHXytA731M",
+            "financialAccountId": "W9juuHZDC13Fm4XaP73V5D",
+            "amount": 12.00,
+            "currency": "USD",
+            "payee": "McDonald's",
+            "status": "POSTED",
+            "transactionDate": "2022-10-29T00:00:00Z",
+            "postedDate": "2022-10-29T00:00:00Z",
+            "serviceProviderDetails": [
+                {
+                    "date": "2022-10-29",
+                    "transaction_id": "VKqP5jV7lNSaxNMGQBZkfaomGKlzNbHnxwa5a",
+                    "transaction_code": null,
+                    "unofficial_currency_code": null,
+                    "amount": 12.0,
+                    "payment_meta": {
+                        "payee": null,
+                        "payer": null,
+                        "ppd_id": null,
+                        "reason": null,
+                        "by_order_of": null,
+                        "payment_method": null,
+                        "reference_number": null,
+                        "payment_processor": null
+                    },
+                    "pending": false,
+                    "merchant_name": "McDonald's",
+                    "original_description": null,
+                    "transaction_type": "place",
+                    "account_owner": null,
+                    "account_id": "3mJjprzDQ9uEjZoL79r8I3nmq4z8yBFM7dl6a",
+                    "category_id": "13005032",
+                    "payment_channel": "in store",
+                    "name": "McDonald's",
+                    "serviceProvider": "PLAID",
+                    "iso_currency_code": "USD",
+                    "location": {
+                        "lat": null,
+                        "lon": null,
+                        "city": null,
+                        "region": null,
+                        "address": null,
+                        "country": null,
+                        "postal_code": null,
+                        "store_number": "3322"
+                    },
+                    "pending_transaction_id": null,
+                    "category": [
+                        "Food and Drink",
+                        "Restaurants",
+                        "Fast Food"
+                    ],
+                    "authorized_date": "2022-10-29",
+                    "updatedAt": "2022-10-29T02:32:36.407118+00:00"
+                }
+            ]
+        },
+        {
+            "key": "3zqF7t8wkPv1aqJBziPcGtpZPki7rrRs3WX6jT7SyQSXFSJkLCAZYGb4Twd7vn3RmHh8D28EdFsSjAK6zawk2XrNwNvnbsWk47rgrzDAU3DatE1Jc9kbEC8AJzQNS7L21wGk5ky7j3Kd4oeVb1WedrQMWJJbGsmhZMLL5zCBRCag26tjnb",
+            "id": "WGuydgPZ9KiDWScLkc697K",
+            "accountId": "W2a8FeqGg8MEVPFND3vqWJ",
+            "customerId": "WGtfoppbN9U5jgVCMSgneW",
+            "financialAccountId": "WGtf5Q6WcNTSKA6yuQLc2H",
+            "amount": 678.58,
+            "currency": "USD",
+            "payee": "",
+            "status": "POSTED",
+            "transactionDate": "2022-10-29T00:00:00Z",
+            "postedDate": "2022-10-29T00:00:00Z",
+            "serviceProviderDetails": [
+                {
+                    "date": "2022-10-29",
+                    "amount": {
+                        "amount": 678.58,
+                        "currency": "USD"
+                    },
+                    "checkNumber": "998",
+                    "isManual": false,
+                    "highLevelCategoryId": 10000017,
+                    "description": {
+                        "original": "ATT*BILL PAYMENT XXX-XXX-0500 TX"
+                    },
+                    "transactionDate": "2022-10-29",
+                    "categoryType": "UNCATEGORIZE",
+                    "categorySource": "SYSTEM",
+                    "accountId": 10319427,
+                    "lastUpdated": "2022-10-31T04:05:10Z",
+                    "createdDate": "2022-10-31T04:05:10Z",
+                    "sourceType": "AGGREGATED",
+                    "CONTAINER": "bank",
+                    "serviceProvider": "YODLEE",
+                    "postDate": "2022-10-29",
+                    "id": 23294862,
+                    "category": "Uncategorized",
+                    "runningBalance": {
+                        "amount": 1159.24,
+                        "currency": "USD"
+                    },
+                    "categoryId": 1,
+                    "status": "POSTED",
+                    "updatedAt": "2022-10-31T04:19:17.338476+00:00"
+                }
+            ]
+        }
+    ],
+    "count": 3,
+    "remaining": 226
+}
+
+
