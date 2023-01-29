@@ -2,7 +2,7 @@ package io.meld
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import io.meld.example.databinding.ActivityMainBinding
+import io.meld.banklinking.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {

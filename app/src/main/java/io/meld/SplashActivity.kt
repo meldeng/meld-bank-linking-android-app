@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import io.meld.example.ConfigActivity
-import io.meld.example.data.MeldData
-import io.meld.example.databinding.ActivitySplashBinding
+import io.meld.banklinking.databinding.ActivitySplashBinding
+import io.meld.banklinking.ConfigActivity
+import io.meld.banklinking.data.MeldData
 import io.meld.sdk.enums.Products
 
 class SplashActivity : AppCompatActivity() {

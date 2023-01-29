@@ -7,7 +7,7 @@
     >
     <fragment
         android:id="@+id/financialAccountFragment"
-        android:name="io.meld.example.ui.account.detail.FinancialAccountFragment"
+        android:name="io.meld.banklinking.ui.account.detail.FinancialAccountFragment"
         android:label="FinancialAccountFragment">
         <argument
             android:name="id"
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/financialTransactionFragment"
-        android:name="io.meld.example.ui.transactions.detail.FinancialTransactionFragment"
+        android:name="io.meld.banklinking.ui.transactions.detail.FinancialTransactionFragment"
         android:label="FinancialTransactionFragment">
         <argument
             android:name="id"
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/institutionConnectionFragment"
-        android:name="io.meld.example.ui.connections.detail.InstitutionConnectionFragment"
+        android:name="io.meld.banklinking.ui.connections.detail.InstitutionConnectionFragment"
         android:label="InstitutionConnectionFragment">
         <argument
             android:name="id"
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/institutionFragment"
-        android:name="io.meld.example.ui.institution.details.InstitutionFragment"
+        android:name="io.meld.banklinking.ui.institution.details.InstitutionFragment"
         android:label="InstitutionFragment">
         <argument
             android:name="id"
@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchInstitutionFragment"
-        android:name="io.meld.example.ui.institution.SearchInstitutionFragment"
+        android:name="io.meld.banklinking.ui.institution.SearchInstitutionFragment"
         android:label="fragment_search_institution"
         tools:layout="@layout/fragment_search_institution">
         <action
@@ -55,7 +55,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchInstitutionConnectionsFragment"
-        android:name="io.meld.example.ui.connections.SearchConnectionsFragment"
+        android:name="io.meld.banklinking.ui.connections.SearchConnectionsFragment"
         android:label="fragment_search_institutions"
         tools:layout="@layout/fragment_search_connections">
         <action
@@ -64,7 +64,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFinancialAccountFragment"
-        android:name="io.meld.example.ui.account.SearchFinancialAccountFragment"
+        android:name="io.meld.banklinking.ui.account.SearchFinancialAccountFragment"
         android:label="fragment_search_financial_account"
         tools:layout="@layout/fragment_search_financial_account">
         <action
@@ -73,7 +73,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFinancialTransactionsFragment"
-        android:name="io.meld.example.ui.transactions.SearchFinancialTransactionsFragment"
+        android:name="io.meld.banklinking.ui.transactions.SearchFinancialTransactionsFragment"
         android:label="fragment_search_financial_transactions"
         tools:layout="@layout/fragment_search_financial_transactions">
         <action
@@ -86,7 +86,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="io.meld.example.ui.home.HomeFragment"
+        android:name="io.meld.banklinking.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action

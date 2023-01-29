@@ -5,8 +5,8 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'androidx.navigation.safeargs.kotlin'
-    id 'com.google.gms.google-services'
-    id 'com.google.firebase.crashlytics'
+//    id 'com.google.gms.google-services'
+//    id 'com.google.firebase.crashlytics'
 }
 
 dokkaHtml.configure {
@@ -63,7 +63,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
-    implementation files('/Users/abhishek/Documents/projects/meld-bank-linking-android-app/app/src/main/lib/meld-sdk-release.aar')
+    implementation files('/Users/abhishek/Documents/projects/dd/meld-bank-linking-android-app/app/src/main/lib/meld-sdk-release.aar')
 //    implementation project(path: ':meld-sdk')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
@@ -110,12 +110,12 @@ dependencies {
     implementation "androidx.navigation:navigation-compose:2.5.3"
 
     // Import the Firebase BoM
-    implementation platform('com.google.firebase:firebase-bom:31.1.1')
+//    implementation platform('com.google.firebase:firebase-bom:31.1.1')
     // Add the dependency for the Firebase SDK for Google Analytics
-    implementation 'com.google.firebase:firebase-analytics'
+//    implementation 'com.google.firebase:firebase-analytics'
 
     // Add the dependencies for the Crashlytics and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-crashlytics'
-    implementation 'com.google.firebase:firebase-analytics'
+//    implementation 'com.google.firebase:firebase-crashlytics'
+//    implementation 'com.google.firebase:firebase-analytics'
 }

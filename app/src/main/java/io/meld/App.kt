@@ -4,7 +4,7 @@ import android.app.Application
 import com.chibatching.kotpref.Kotpref
 import com.chibatching.kotpref.gsonpref.gson
 import com.google.gson.Gson
-import io.meld.example.data.MeldData
+import io.meld.banklinking.data.MeldData
 import io.meld.sdk.MeldSDK
 import io.meld.sdk.env.Environment
 import io.meld.sdk.model.MeldConfiguration
