@@ -4,6 +4,25 @@
 This project shows how to integrate the Meld API to connect to link accounts.  
 https://docs.meld.io/reference/request-connect-token
 
+# Installation
+Add it in your root build.gradle at the end of repositories:
+```
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add the dependency
+
+```
+dependencies {
+	        implementation 'com.github.meldeng:meld-bank-linking-android-app:0.0.1'
+	}
+```
 
 # Setup Demo
 
