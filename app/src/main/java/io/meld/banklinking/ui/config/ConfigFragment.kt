@@ -61,19 +61,19 @@ class ConfigFragment : Fragment() {
         mBinding.etExternalCustomerId.setText(MeldData.externalCustomerId)
 
         //set products data
-        mBinding.chkAccountDetails.text = Products.ACCOUNT_DETAILS.name
         mBinding.chkBalance.text = Products.BALANCES.name
-        mBinding.chkIdentities.text = Products.IDENTITIES.name
         mBinding.chkTransactions.text = Products.TRANSACTIONS.name
 
 
         //set selected data
         MeldData.products?.forEach { product ->
             when (Products.valueOf(product)) {
-                Products.ACCOUNT_DETAILS -> mBinding.chkAccountDetails.isChecked = true
                 Products.BALANCES -> mBinding.chkBalance.isChecked = true
-                Products.IDENTITIES -> mBinding.chkIdentities.isChecked = true
                 Products.TRANSACTIONS -> mBinding.chkTransactions.isChecked = true
+                Products.OWNERS -> mBinding.chkBalance.isChecked = true
+                Products.IDENTIFIERS -> mBinding.chkBalance.isChecked = true
+                Products.INVESTMENT_HOLDINGS -> mBinding.chkBalance.isChecked = true
+                Products.INVESTMENT_TRANSACTIONS -> mBinding.chkBalance.isChecked = true
             }
         }
 
@@ -163,23 +163,9 @@ class ConfigFragment : Fragment() {
     private fun createProductsList(): ArrayList<String> {
         val selectedProducts = ArrayList<String>()
 
-        if (mBinding.chkAccountDetails.isChecked) {
-            selectedProducts.add(Products.ACCOUNT_DETAILS.name)
-        }
-
         if (mBinding.chkBalance.isChecked) {
             selectedProducts.add(Products.BALANCES.name)
-
         }
-
-
-
-        if (mBinding.chkIdentities.isChecked) {
-            selectedProducts.add(Products.IDENTITIES.name)
-
-        }
-
-
 
         if (mBinding.chkTransactions.isChecked) {
             selectedProducts.add(Products.TRANSACTIONS.name)

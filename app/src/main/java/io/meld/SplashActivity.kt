@@ -20,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         if (MeldData.products == null || MeldData.products?.size == 0) {
-            MeldData.products = listOf<String>(Products.ACCOUNT_DETAILS.name)
+            MeldData.products = listOf<String>(Products.OWNERS.name)
         }
         Handler(Looper.getMainLooper()).postDelayed({
             Intent(this, ConfigActivity::class.java).apply {

@@ -45,7 +45,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun setFragmentView(case: Int) {
-        Intent(this@HomeActivity, ConfigActivity::class.java)?.apply {
+        Intent(this@HomeActivity, ConfigActivity::class.java).apply {
             this.putExtra("case", case)
             startActivity(this)
         }

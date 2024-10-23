@@ -64,7 +64,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 //    implementation files('/Users/abhishek/Documents/projects/dd/meld-bank-linking-android-app/app/src/main/lib/meld-sdk-release.aar')
-    implementation 'com.github.meldeng:meld-bank-linking-android-app:0.0.2'
+    implementation 'com.github.meldeng:meld-bank-linking-android-app:d73935de84'
 //    implementation project(path: ':meld-sdk')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
